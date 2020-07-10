@@ -1,0 +1,5 @@
+/web/vhosts/*
+/web/bash_aliases
+!/web/vhosts/environment.conf.dist
+.env
+/web/crontab
