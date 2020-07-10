@@ -46,7 +46,6 @@ $ docker-compose ps
 ------------------------------------------------------------------------------------------------------------
 environment_maildev_1     bin/maildev --web 80 --smtp 25   Up      25/tcp, 0.0.0.0:1080->80/tcp
 environment_mysql_1       docker-entrypoint.sh mysqld      Up      0.0.0.0:3306->3306/tcp
-environment_redis_1       docker-entrypoint.sh redis ...   Up      0.0.0.0:6379->6379/tcp
 environment_web_1         docker-custom-entrypoint         Up      0.0.0.0:443->443/tcp, 0.0.0.0:80->80/tcp
 ```
 Note: You will see something slightly different if you do not clone the repository in a `environment` directory.
